@@ -1,10 +1,10 @@
-# CHANGELOG for ssh_authorized_keys
+# CHANGELOG for config_cookbook
 
-This file is used to list changes made in each version of ssh_authorized_keys.
+This file is used to list changes made in each version of config_cookbook.
 
 ## 0.1.0:
 
-* Initial release of ssh_authorized_keys
+* Initial release of config_cookbook
 
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.

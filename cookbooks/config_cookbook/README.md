@@ -1,5 +1,5 @@
-ssh_authorized_keys Cookbook
-============================
+config_cookbook Cookbook
+========================
 TODO: Enter the cookbook description here.
 
 e.g.
@@ -11,14 +11,14 @@ TODO: List your cookbook requirements. Be sure to include any requirements this 
 
 e.g.
 #### packages
-- `toaster` - ssh_authorized_keys needs toaster to brown your bagel.
+- `toaster` - config_cookbook needs toaster to brown your bagel.
 
 Attributes
 ----------
 TODO: List you cookbook attributes here.
 
 e.g.
-#### ssh_authorized_keys::default
+#### config_cookbook::default
 <table>
   <tr>
     <th>Key</th>
@@ -27,7 +27,7 @@ e.g.
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['ssh_authorized_keys']['bacon']</tt></td>
+    <td><tt>['config_cookbook']['bacon']</tt></td>
     <td>Boolean</td>
     <td>whether to include bacon</td>
     <td><tt>true</tt></td>
@@ -36,17 +36,17 @@ e.g.
 
 Usage
 -----
-#### ssh_authorized_keys::default
+#### config_cookbook::default
 TODO: Write usage instructions for each cookbook.
 
 e.g.
-Just include `ssh_authorized_keys` in your node's `run_list`:
+Just include `config_cookbook` in your node's `run_list`:
 
 ```json
 {
   "name":"my_node",
   "run_list": [
-    "recipe[ssh_authorized_keys]"
+    "recipe[config_cookbook]"
   ]
 }
 ```

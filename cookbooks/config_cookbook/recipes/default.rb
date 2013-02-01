@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: COOK_TEST
+# Cookbook Name:: config_cookbook
 # Recipe:: default
 #
 # Copyright 2013, YOUR_COMPANY_NAME

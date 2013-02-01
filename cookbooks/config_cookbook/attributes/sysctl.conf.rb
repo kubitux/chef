@@ -1,0 +1,10 @@
+default["net_ipv4_ip_forward"] = 1
+default["net_ipv4_conf_all_rp_filter"] = 1
+default["net_ipv4_conf_default_proxy_arp"] = 1
+default["net_ipv4_conf_eth0_forwarding"] = 1
+default["fs_aio-max-nr"] = 103000
+default["vm_zone_reclaim_mode"] = 0
+default["vm_swappiness"] = 0
+default["net_netfilter_nf_conntrack_max"] = 134217728
+default["net_netfilter_nf_conntrack_tcp_timeout_established"] = 86400
+default["net_core_somaxconn"] = 262144

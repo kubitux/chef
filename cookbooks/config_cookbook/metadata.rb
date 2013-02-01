@@ -1,7 +1,7 @@
-name             'ssh_authorized_keys'
+name             'config_cookbook'
 maintainer       'YOUR_COMPANY_NAME'
 maintainer_email 'YOUR_EMAIL'
 license          'All rights reserved'
-description      'Installs/Configures ssh_authorized_keys'
+description      'Installs/Configures config_cookbook'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          '1.0.0'
+version          '1.1.0'

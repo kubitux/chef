@@ -1,0 +1,10 @@
+net.ipv4.ip_forward = <%= node["net_ipv4_ip_forward"] %>
+net.ipv4.conf.all.rp_filter = <%= node["net_ipv4_conf_all_rp_filter"] %>
+net.ipv4.conf.default.proxy_arp = <%= node["net_ipv4_conf_default_proxy_arp"] %>
+net.ipv4.conf.eth0.forwarding = <%= node["net_ipv4_conf_eth0_forwarding"] %>
+fs.aio-max-nr = <%= node["fs_aio-max-nr"] %>
+vm.zone_reclaim_mode = <%= node["vm_zone_reclaim_mode"] %>
+vm.swappiness = <%= node["vm_swappiness"] %>
+net.netfilter.nf_conntrack_max = <%= node["net_netfilter_nf_conntrack_max"] %>
+net.netfilter.nf_conntrack_tcp_timeout_established = <%= node["net_netfilter_nf_conntrack_tcp_timeout_established"] %>
+net.core.somaxconn = <%= node["net_core_somaxconn"]  %>
