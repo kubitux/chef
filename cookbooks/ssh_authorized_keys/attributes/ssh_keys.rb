@@ -1,4 +1,3 @@
-default['key1'] = "premiere cle"
-default['key2'] = "deuxieme cle"
-
-default['keys'] = [default['key1'], default['key2'] ] 
+default["key_1"] = "ssh-dss AAAAB3NzaC1kc3MAAACBAI+tXmxTwEwi8wQernvMdti7RY8Jpd0+RWiFVWqcDA72OiOdOhe0t4cJfYCl0LgvtpNNkgkdgV8JNU538jCsK1zJMCeX3ANaOxJLhZJFrzPTR3H7cP/imJknDiXCM8rpXbaJT4G5CoL8rMvpGdv9gnpozUJELtha07781DaE2VaDAAAAFQDpSm5kkzvYa1abfMspzoOk2/fnfQAAAIBBC7HPnbjmSB+Psetr7dlptutXahaRTSgXPk9Z5Z0i4LfNYo88mZ5F2PrdwcC4cCfbd3NZTB1g7nNpTPrQSnxN2b7GmJTFEd/6duoOI4E2ddFlK0QaCNRd/mDoal35+pWq7dWifuomrebVvaB+hC5NXVBXiohUbpBqtcACOMzLpQAAAIBFAf0k7KsBOqRWNmB0FDrP12/sB4p4w/qKhbjDYPKDWDQ+4OEIryGTpdFjQHMXbVxckQGgDjzFndTGbpz6hOY2hlxooekjjlnKinpbUGSVqcP1gq/dRd1dkTp0Ccn7C5C5RIyA1fGuGGGvc3EJ3xYalCfLiH6469vkcrSUCphAiA=="
+default["key_2"] = "ssh-dss AAAAB3NzaC1kc3MAAACBAPET7SyMH9TuAmqXkkXAKUEzEFDf3YGMh0zDe9E5vzdAqu60bl32IPYIxNh1tsIstuqXVbJwqEfsvIF5eSjUV0ZySEcgMjwvYB8r4OcWmxk5icBJPN4WrvSNHMD8HPJ7euhbpyTS0BNybsBbHuyuQUtR8SJBtSrsXQULEVFRjFQVAAAAFQCUMOoxpx/C3cEqTpotnYFTRv43fwAAAIEAnuZzZbWms1wAsh6X4tasvCT2styf2q56NB4bzb9tsM9Dk7P7kpK/GMDReh/n6IQOrn1XBsQDLBeeoR5fB/b+q9okR7QudtUt1dDUt/6d/Aa5epMHKv792cE6zoI2aT4IeAQMqidl4bWC/LOqQP5TqMgFGxn/sQv/wLMnm1N5sKIAAACAAuoKB3XNg0FarDw/9Ot5AYHtRl+DM2cBWCARWI2P7P+YSF7vozaoRbmdGU9nu9rXZlqKoWd+3ZXV+xzbjDjRkyN8SVDDvh94GC/8yOI2vwB+b6l4wiHbZAlBSAGBgTNJnG4V53Ssz2aBUf3MBGVT+2QSVt4dGGY35ajMGNjAZPU= sebastien.c@swelen.net"
+default["all_keys"] = [default['key_1'], default['key_2'] ] 
